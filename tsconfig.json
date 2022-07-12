@@ -7,10 +7,12 @@
       "esnext"
     ],
     "allowJs": true,
+    "sourceMap": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "strictPropertyInitialization": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
@@ -21,6 +23,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/**/*",
+    "@types/**/*"
   ]
 }
